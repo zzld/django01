@@ -20,5 +20,5 @@ def grades(request):
 def login(request):
     return render(request,'app01/login.html')
 
-def regist(request):
-    return render(request,'app01/regist.html')
+def main(request):
+    return render(request,'app01/main.html')
